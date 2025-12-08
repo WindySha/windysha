@@ -17,8 +17,8 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           template: markdown
-          filename: metrics.markdown.full.md
-          markdown: https://raw.githubusercontent.com/WindySha/windysha/refs/heads/main/README.md
+          filename: README.md
+          markdown: https://raw.githubusercontent.com/WindySha/windysha/refs/heads/main/metrics.markdown.full.md
           config_output: markdown
           plugin_activity: yes
           plugin_activity_limit: 7
