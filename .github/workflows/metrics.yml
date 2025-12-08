@@ -29,5 +29,12 @@ jobs:
           plugin_isocalendar: yes
           plugin_languages: yes
           token: ${{ secrets.METRICS_TOKEN }}
+          plugin_repositories: yes
+          plugin_repositories_featured: >
+            WindySha/Xpatch,
+            WindySha/ManifestEditor
+          plugin_repositories_starred: 3
+          plugin_repositories_forks: no
+          plugin_repositories_order: featured,starred
 
           
