@@ -3,16 +3,9 @@
 See [rendering of this file here](https://github.com/lowlighter/metrics/blob/examples/metrics.markdown.full.md) and [original template source here](https://github.com/lowlighter/metrics/blob/master/source/templates/markdown/example.md).
 
 ## 🧩 Plugins with markdown version
-
-<%- await include(`partials/activity.ejs`) %>
-
 ___
 
 <%- await include(`partials/posts.ejs`) %>
-
-___
-
-<%- await include(`partials/rss.ejs`) %>
 
 ___
 
