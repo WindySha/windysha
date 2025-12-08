@@ -18,7 +18,7 @@ jobs:
         with:
           template: markdown
           filename: README.md
-          markdown: https://raw.githubusercontent.com/WindySha/windysha/refs/heads/main/metrics.markdown.full.md
+          markdown: https://raw.githubusercontent.com/WindySha/windysha/refs/heads/main/template.md
           config_output: markdown
           plugin_activity: yes
           plugin_activity_limit: 7
