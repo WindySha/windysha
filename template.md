@@ -16,4 +16,4 @@ I am a software architect, mainly focused on Android platform development.
 
 ### Popular Repositories
 
-![Featured Repositories](./metrics.repositories.svg)
+![](./metrics.repositories.svg)
