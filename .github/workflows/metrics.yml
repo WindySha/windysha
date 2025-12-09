@@ -7,10 +7,39 @@ on:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
+# ----------------------------------------------------
+  # JOB 2: Generate Repositories SVG
+  # ----------------------------------------------------
+  github-repositories:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # 1. Output Configuration
+          template: classic  # Use 'classic' template for simple SVG output
+          filename: metrics.repositories.svg # 🎯 Target Filename
+          
+          # 2. Base & Exclude everything except the plugins we need
+          base: "" # Exclude all core stats (header, activity, etc.)
+          
+          # 3. Enable the Repositories Plugin
+          plugin_repositories: yes
+          plugin_repositories_featured: >
+            WindySha/Xpatch,
+            WindySha/ManifestEditor    
+          plugin_repositories_starred: 2
+          plugin_repositories_order: featured, starred
+          plugin_repositories_limit: 2
+  
+  # ----------------------------------------------------
+  # JOB 2: Full Markdown Embed (Your existing job)
+  # ----------------------------------------------------
   github-metrics:
     runs-on: ubuntu-latest
-    environment: 
-      name: production
     permissions:
       contents: write
     steps:
@@ -29,12 +58,5 @@ jobs:
           plugin_isocalendar: yes
           plugin_languages: yes
           token: ${{ secrets.METRICS_TOKEN }}
-          plugin_repositories: yes
-          plugin_repositories_featured: >
-            WindySha/Xpatch,
-            WindySha/ManifestEditor
-          plugin_repositories_starred: 3
-          plugin_repositories_forks: no
-          plugin_repositories_order: featured,starred
 
           
