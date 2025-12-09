@@ -14,6 +14,6 @@ I am a software architect, mainly focused on Android platform development.
 
 <%- await embed(`example-base-pdf`, {base:"activity, community, repositories", languages: true, languages_details:"percentage, bytes-size", config_display:"large"}) %>
 
-### Popular Repositories
+### Featured Repositories
 
 ![](./metrics.repositories.svg)
