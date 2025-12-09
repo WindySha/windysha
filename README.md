@@ -10,14 +10,10 @@ I am a software architect, mainly focused on Android platform development.
 
 - 💬 Ask me about anything [here](https://github.com/windysha/windysha/issues)
 
-### Most Used Languages
-
-<img src="https://github.com/WindySha/windysha/blob/main/.cache/example-languages-pdf.svg">
-
 ### GitHub Stats
 
 <img src="https://github.com/WindySha/windysha/blob/main/.cache/example-base-pdf.svg">
 
 ### Popular Repositories
 
-![Featured Repositories](./metrics.repositories.svg)
+![](./metrics.repositories.svg)
