@@ -29,7 +29,7 @@ jobs:
           # 3. Enable the Repositories Plugin
           plugin_repositories: yes
           plugin_repositories_order: starred
-          plugin_repositories_limit: 2
+          plugin_repositories_starred: 2
   
   # ----------------------------------------------------
   # JOB 2: Full Markdown Embed (Your existing job)
@@ -46,10 +46,6 @@ jobs:
           markdown: https://raw.githubusercontent.com/WindySha/windysha/refs/heads/main/template.md
           config_output: markdown
           base: header, activity, community, repositories, metadata
-          plugin_activity: yes
-          plugin_activity_limit: 7
-          plugin_activity_days: 0
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
           plugin_topics: yes
           plugin_topics_limit: 24
           plugin_isocalendar: yes
