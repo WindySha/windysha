@@ -14,6 +14,6 @@ I am a software architect, mainly focused on Android platform development.
 
 <img src="https://github.com/WindySha/windysha/blob/main/.cache/example-base-pdf.svg">
 
-### Popular Repositories
+### Featured Repositories
 
 ![](./metrics.repositories.svg)
