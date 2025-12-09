@@ -46,7 +46,8 @@ jobs:
           markdown: https://raw.githubusercontent.com/WindySha/windysha/refs/heads/main/template.md
           config_output: markdown
           plugin_languages: yes
-          languages: true
+          plugin_languages_ignored: >
+             html, css, JavaScript
           base: header, activity, community, repositories, metadata
           token: ${{ secrets.METRICS_TOKEN }}
 
