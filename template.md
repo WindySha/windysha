@@ -1,12 +1,23 @@
+I am a software architect, mainly focused on Android platform development.
 
-## 🔥 Popular / Featured Repositories
+**About me**
+
+- 💼 Android development engineer at TikTok
+
+- 📈 Specialized in Android reverse engineering, performance optimization and stability optimization
+
+- ❤️ I love writing Rust, C/C++, Java and kotlin, and building some interesting tools
+
+- 💬 Ask me about anything [here](https://github.com/windysha/windysha/issues)
+
+**Popular Repositories**
 
 ![Featured Repositories](./metrics.repositories.svg)
 
-## 🎈 Embedding SVG metrics on-the-fly
+**Most Used Languages**
 
 <%- await embed(`example-languages-pdf`, {languages:true, languages_details:"percentage, bytes-size", config_display:"large"}) %>
 
-___
+**GitHub Stats**
 
 <%- await embed(`example-base-pdf`, {base:"activity, community, repositories"}) %>
