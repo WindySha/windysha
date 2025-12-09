@@ -1,6 +1,6 @@
 I am a software architect, mainly focused on Android platform development.
 
-**About me**
+###About me
 
 - 💼 Android development engineer at TikTok
 
@@ -10,14 +10,14 @@ I am a software architect, mainly focused on Android platform development.
 
 - 💬 Ask me about anything [here](https://github.com/windysha/windysha/issues)
 
-**Popular Repositories**
-
-![Featured Repositories](./metrics.repositories.svg)
-
-**Most Used Languages**
+###Most Used Languages
 
 <img src="https://github.com/WindySha/windysha/blob/main/.cache/example-languages-pdf.svg">
 
-**GitHub Stats**
+###GitHub Stats
 
 <img src="https://github.com/WindySha/windysha/blob/main/.cache/example-base-pdf.svg">
+
+###Popular Repositories
+
+<img src="https://github.com/WindySha/windysha/blob/main/metrics.repositories.sv">
