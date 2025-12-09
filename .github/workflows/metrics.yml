@@ -45,6 +45,7 @@ jobs:
           filename: README.md
           markdown: https://raw.githubusercontent.com/WindySha/windysha/refs/heads/main/template.md
           config_output: markdown
+          plugin_languages: yes
           base: header, activity, community, repositories, metadata
           token: ${{ secrets.METRICS_TOKEN }}
 
