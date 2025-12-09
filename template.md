@@ -16,7 +16,7 @@ I am a software architect, mainly focused on Android platform development.
 
 ### GitHub Stats
 
-<%- await embed(`example-base-pdf`, {base:"activity, community, repositories"}) %>
+<%- await embed(`example-base-pdf`, {base:"activity, community, repositories", languages: true}) %>
 
 ### Popular Repositories
 
