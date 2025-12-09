@@ -10,13 +10,9 @@ I am a software architect, mainly focused on Android platform development.
 
 - 💬 Ask me about anything [here](https://github.com/windysha/windysha/issues)
 
-### Most Used Languages
-
-<%- await embed(`example-languages-pdf`, {languages:true, languages_details:"percentage, bytes-size", config_display:"large"}) %>
-
 ### GitHub Stats
 
-<%- await embed(`example-base-pdf`, {base:"activity, community, repositories", languages: true}) %>
+<%- await embed(`example-base-pdf`, {base:"activity, community, repositories", languages: true, languages_details:"percentage, bytes-size", config_display:"large"}) %>
 
 ### Popular Repositories
 
