@@ -28,11 +28,7 @@ jobs:
           
           # 3. Enable the Repositories Plugin
           plugin_repositories: yes
-          plugin_repositories_featured: >
-            WindySha/Xpatch,
-            WindySha/ManifestEditor    
-          plugin_repositories_starred: 2
-          plugin_repositories_order: featured, starred
+          plugin_repositories_order: starred
           plugin_repositories_limit: 2
   
   # ----------------------------------------------------
@@ -49,6 +45,7 @@ jobs:
           filename: README.md
           markdown: https://raw.githubusercontent.com/WindySha/windysha/refs/heads/main/template.md
           config_output: markdown
+          base: header, activity, community, repositories, metadata
           plugin_activity: yes
           plugin_activity_limit: 7
           plugin_activity_days: 0
