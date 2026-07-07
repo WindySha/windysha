@@ -2,7 +2,7 @@ I am a software architect, mainly focused on Android platform development.
 
 ### About me
 
-- 💼 Android development engineer at TikTok
+- 💼 Android development engineer
 
 - 📈 Specialized in Android reverse engineering, performance optimization and stability optimization
 
